@@ -27,4 +27,4 @@ const eslintConfigAsurgent =  (override) => (Object.assign({
     },
   }, override));
   
-  module.exports = config
+  module.exports = eslintConfigAsurgent;
