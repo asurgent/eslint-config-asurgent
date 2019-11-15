@@ -1,8 +1,9 @@
 {
-  "name": "eslint-config-asurgent",
+  "name": "@asurgent/eslint-config-asurgent",
   "version": "1.0.0",
   "description": "Asurgents eslint configuration for frontend code",
   "main": "index.js",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
