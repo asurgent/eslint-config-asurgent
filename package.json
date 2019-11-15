@@ -1,6 +1,6 @@
 {
   "name": "@asurgent/eslint-config-asurgent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Asurgents eslint configuration for frontend code",
   "main": "index.js",
   "publishConfig": {
