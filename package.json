@@ -1,6 +1,6 @@
 {
   "name": "@asurgent/eslint-config-asurgent",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Asurgents eslint configuration for frontend code",
   "main": "index.js",
   "publishConfig": {
@@ -17,11 +17,11 @@
   "license": "ISC",
   "dependencies": {
     "eslint": "^6.6.0",
-    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb": "^18.0.1",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.6.0"
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
   }
 }
