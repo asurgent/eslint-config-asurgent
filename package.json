@@ -1,24 +1,26 @@
 {
   "name": "@asurgent/eslint-config-asurgent",
-  "version": "1.0.4",
-  "description": "frontend: asurgents eslint configuration 👍🏼",
+  "version": "1.0.0",
+  "description": "@frontend - asurgents eslint configuration 👍🏼",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
     "url": "github.com:asurgent/eslint-config-asurgent.git"
   },
+  "bin": "./src/index.js",
   "author": "@hellotheremike",
   "license": "ISC",
   "dependencies": {
-    "eslint-import-resolver-alias": "^1.1.2",
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.1",
+    "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",

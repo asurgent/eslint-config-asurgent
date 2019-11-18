@@ -1,3 +1,3 @@
-import eslintConfigAsurgent from './index';
+const config = require('./src/index')
 
-export default eslintConfigAsurgent();
+module.exports = config()
