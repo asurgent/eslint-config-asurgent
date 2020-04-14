@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com:asurgent/eslint-config-asurgent.git"
+    "url": "git+ssh://git@github.com/asurgent/eslint-config-asurgent.git"
   },
   "bin": "./src/index.js",
   "author": "@hellotheremike",
