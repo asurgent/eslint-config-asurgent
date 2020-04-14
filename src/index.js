@@ -23,6 +23,8 @@ const config = (override = {}) => {
     },
     parser: 'babel-eslint',
     rules: {
+      'import/prefer-default-export': 'off',
+      'import/no-default-export': 'error',
       'react/state-in-constructor': 0,
       'react/static-property-placement': 0,
       'react/jsx-props-no-spreading': 0,
