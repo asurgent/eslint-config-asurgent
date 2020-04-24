@@ -9,6 +9,7 @@ const config = (override = {}) => {
 
   const result = ({
     extends: ['airbnb'],
+    plugins: ['react', 'react-hooks'],
     parserOptions: {
       ecmaVersion: 2017,
       sourceType: 'module',
@@ -23,6 +24,7 @@ const config = (override = {}) => {
     },
     parser: 'babel-eslint',
     rules: {
+      'react-hooks/exhaustive-deps': 2,
       'import/prefer-default-export': 'off',
       'react/state-in-constructor': 0,
       'react/static-property-placement': 0,
