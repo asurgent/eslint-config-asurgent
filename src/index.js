@@ -24,7 +24,7 @@ const config = (override = {}) => {
     },
     parser: 'babel-eslint',
     rules: {
-      'react-hooks/exhaustive-deps': 2,
+      'react-hooks/exhaustive-deps': 1,
       'import/prefer-default-export': 'off',
       'react/state-in-constructor': 0,
       'react/static-property-placement': 0,
