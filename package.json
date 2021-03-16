@@ -1,6 +1,6 @@
 {
   "name": "@asurgent/eslint-config-asurgent",
-  "version": "1.1.6",
+  "version": "1.2.0",
   "description": "@frontend - asurgents eslint configuration 👍🏼",
   "main": "./src/index.js",
   "publishConfig": {
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/asurgent/eslint-config-asurgent.git"
   },
-  "bin": "./src/index.js",
+  "bin": {
+    "eslint-config-asurgent": "src/index.js"
+  },
   "author": "@hellotheremike",
   "license": "ISC",
   "dependencies": {
