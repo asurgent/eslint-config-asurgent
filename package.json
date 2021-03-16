@@ -4,6 +4,7 @@
   "description": "@frontend - asurgents eslint configuration 👍🏼",
   "main": "./src/index.js",
   "publishConfig": {
+    "cache": "npm_cache",
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
