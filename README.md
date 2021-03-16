@@ -35,11 +35,11 @@ Default linting rules.
 ```
 
 ## Dependencies
-* `"babel-eslint": "^10.0.3"`
-* `"eslint": "^6.1.0"`
-* `"eslint-config-airbnb": "^18.0.1"`
-* `"eslint-import-resolver-alias": "^1.1.2"`
-* `"eslint-plugin-import": "^2.18.2"`
-* `"eslint-plugin-jsx-a11y": "^6.2.3"`
-* `"eslint-plugin-react": "^7.16.0"`
-* `"eslint-plugin-react-hooks": "^1.7.0"`
+* `"babel-eslint": "^10.1.0",`
+* `"eslint": "^7.22.0",`
+* `"eslint-config-airbnb": "^18.2.1",`
+* `"eslint-import-resolver-alias": "^1.1.2",`
+* `"eslint-plugin-import": "^2.22.1",`
+* `"eslint-plugin-jsx-a11y": "^6.4.1",`
+* `"eslint-plugin-react": "^7.22.0",`
+* `"eslint-plugin-react-hooks": "^4.2.0"`
