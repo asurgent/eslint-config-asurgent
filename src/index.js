@@ -24,6 +24,8 @@ const config = (override = {}) => {
     },
     parser: 'babel-eslint',
     rules: {
+      'react/prop-types': 'warn',
+      'no-unused-vars': 'warn',
       'react-hooks/exhaustive-deps': 1,
       'import/prefer-default-export': 'off',
       'react/state-in-constructor': 0,
